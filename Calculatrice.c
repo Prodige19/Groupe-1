@@ -27,10 +27,16 @@ main(){
     x=20;
     y=3;
     float r;
-    r= somme (x,y);
 
+    r= somme (x,y);
     printf("La somme est %f", r);
 
     r= soustraction (x,y);
     printf("La soustraction est %f", r);
+
+    r= multiplication (x,y);
+    printf("La multiplication est %f", r);
+
+    r= division (x,y);
+    printf("La division est %f", r);
 }
