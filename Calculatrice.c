@@ -9,8 +9,16 @@
 }
 
 //Fonction multiplication (Fanta)
+int multiplication  (int x ,int y) {
+    int multi =x*y;
+    return multi;
+}
 
 //Fonction soustraction (Maeva)
+int soustraction  (int l ,int m) {
+    int soustr =l*m;
+    return soustr;
+}
 
 //Fonction Divition (Sobour)
 
