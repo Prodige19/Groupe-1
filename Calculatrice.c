@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 //Declaration des variables 
+float x, y;
 
 //Fonction addition (Prodige)
  int somme(int n1, int n2){
@@ -15,13 +16,21 @@ int multiplication  (int x ,int y) {
 }
 
 //Fonction soustraction (Maeva)
-int soustraction  (int l ,int m) {
-    int soustr =l*m;
+float soustraction  (float l ,float m) {
+    float soustr =l-m;
     return soustr;
 }
 
 //Fonction Divition (Sobour)
 
 main(){
-    
+    x=20;
+    y=3;
+    float r;
+    r= somme (x,y);
+
+    printf("La somme est %f", r);
+
+    r= soustraction (x,y);
+    printf("La soustraction est %f", r);
 }
